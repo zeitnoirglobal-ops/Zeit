@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+
+# CocoaPods analytics sends network stats
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+target 'Runner' do
+  use_frameworks! :linkage => :static
+  use_modular_headers!
+
+  # Flutter Pod helper
+  flutter_application_path = '../'
+  load File.join(flutter_application_path, '.flutter-plugins-dependencies')
+
+  pod 'Firebase/Messaging'
+
+end

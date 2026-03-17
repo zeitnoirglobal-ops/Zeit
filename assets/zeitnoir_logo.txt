@@ -1,0 +1,16 @@
+ZEITNOIR LOGO PLACEHOLDER
+
+This is a placeholder file. For the app to work properly:
+
+1. Replace this with an actual PNG image: zeitnoir_logo.png
+2. Dimensions: 180x180 pixels recommended
+3. Format: PNG with transparency
+4. Place in: assets/zeitnoir_logo.png
+
+The image will display on the splash screen.
+
+To create the logo:
+- Use a design tool like Figma, Illustrator, or Photoshop
+- Keep the design minimal and elegant
+- Use the luxury gold color (#D4AF37) as an accent
+- Test the scaling on different screen sizes
